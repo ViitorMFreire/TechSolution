@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Solution</title>
 
-    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
     <script src="script.js"></script>
 </head>
 <body>
@@ -44,13 +45,69 @@
     </section>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 TechSolutions. Todos os direitos reservados.</p>
-            <ul class="social-links">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
+        <link rel="stylesheet" href="css/footer.css">
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>TechSolution</h1>
+                <p>Otimizando seu mundo digital!</p>
+
+                <div id="footer_social_media">
+                    <a href="www.linkedin.com/in/techsolution" target="_blank" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre nós</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Contatos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">História</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Missão, visão e valores</a>
+                </li>
             </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Automações</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Consultoria</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Treinamentos</a>
+                </li>
+            </ul>
+
+            <div id="footer-subscribe">
+                <h3>Inscreva-se</h3>
+                
+                <p>
+                    Insira seu e-mail para obter notificações sobre
+                    nossos produtos.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 todos os direitos reservados
         </div>
     </footer>
 </body>

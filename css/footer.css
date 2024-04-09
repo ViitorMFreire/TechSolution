@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-
 
 :root{
     --color-neutral-0: #0e0c0c;
@@ -29,7 +27,7 @@ footer{
 }
 
 #footer_content{
-    background-color: var(--color-neutral-10);
+    background-color: var(--color-neutral-0);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
@@ -64,13 +62,6 @@ footer{
     opacity: 0.8;
 }
 
-#instagram{
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-#twitter{
-    background-color: #00acee;
-}
-
 /* Lista de Blog e Products */
 .footer-list{
     display: flex;
@@ -102,7 +93,7 @@ footer{
 #input_group{
     display: flex;
     align-items: center;
-    background-color: var(--color-neutral-0);
+    background-color: var(--color-neutral-10);
     border-radius: 4px;
 }
 
